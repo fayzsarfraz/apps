@@ -1,3 +1,4 @@
+# python -m streamlit run financial_calculator.py
 import streamlit as st
 
 # Function to calculate compounded savings
