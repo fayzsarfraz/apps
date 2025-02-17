@@ -39,7 +39,7 @@ if app_choice == "Compounded Savings Calculator":
     st.title("Compounded Savings Calculator")
     
     monthly_saving = st.number_input("Enter monthly saving amount:", min_value=0.0, value=10000.0)
-    annual_profit_percentage = st.number_input("Enter annual profit percentage:", min_value=0.0, value=15.0)
+    annual_profit_percentage = st.number_input("Enter annual profit percentage:", min_value=0.0, value=20.0)
     years = st.number_input("Enter number of years:", min_value=1, value=20)
     
     if st.button("Calculate Savings"):
